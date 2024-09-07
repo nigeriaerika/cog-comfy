@@ -26,6 +26,15 @@ class BrushNetLoader:
         # Load the BrushNet model
         pass
 
+class BlendInpaint:
+    def __init__(self):
+        # Initialize the BlendInpaint
+        pass
+
+    def blend(self):
+        # Blend inpaint logic
+        pass
+
 class Terminal:
 
     @classmethod
