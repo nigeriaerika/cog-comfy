@@ -17,6 +17,15 @@ class ComfyUI_BrushNet(CustomNodeHelper):
     def weights_map(base_url):
         return {}
 
+class BrushNetLoader:
+    def __init__(self):
+        # Initialize the BrushNetLoader
+        pass
+
+    def load(self):
+        # Load the BrushNet model
+        pass
+
 class Terminal:
 
     @classmethod
@@ -44,7 +53,7 @@ class Terminal:
 # A dictionary that contains all nodes you want to export with their names
 NODE_CLASS_MAPPINGS = {
     "BrushNetLoader": BrushNetLoader,
-    "BrushNet": BrushNet,
+    "BrushNet": ComfyUI_BrushNet,
     "BlendInpaint": BlendInpaint,
     "PowerPaintCLIPLoader": PowerPaintCLIPLoader,
     "PowerPaint": PowerPaint,
