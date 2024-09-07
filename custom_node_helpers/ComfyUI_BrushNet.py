@@ -35,6 +35,42 @@ class BlendInpaint:
         # Blend inpaint logic
         pass
 
+class PowerPaintCLIPLoader:
+    def __init__(self):
+        # Initialize the PowerPaintCLIPLoader
+        pass
+
+    def load(self):
+        # Load the PowerPaint CLIP model
+        pass
+
+class PowerPaint:
+    def __init__(self):
+        # Initialize the PowerPaint
+        pass
+
+    def paint(self):
+        # PowerPaint logic
+        pass
+
+class CutForInpaint:
+    def __init__(self):
+        # Initialize the CutForInpaint
+        pass
+
+    def cut(self):
+        # Cut for inpaint logic
+        pass
+
+class RAUNet:
+    def __init__(self):
+        # Initialize the RAUNet
+        pass
+
+    def run(self):
+        # RAUNet logic
+        pass
+
 class Terminal:
 
     @classmethod
